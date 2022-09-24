@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Brekfast",
+          "value": "Healthy Breakfast"
+        },
+        {
+          "label": "Lunch",
+          "value": "Combo Lunch"
+        },
+        {
+          "value": "Light Dinner Good Health",
+          "label": "Dinner"
+        }
+      ],
+      "label": "Select Meal Type",
+      "type": "select",
+      "id": "Field_1udaobf",
+      "key": "mealOptions",
+      "description": "Select Food Options",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "value": "1000",
+          "label": "Veg"
+        },
+        {
+          "label": "NonVeg",
+          "value": "2000"
+        },
+        {
+          "value": "3000",
+          "label": "Combo"
+        }
+      ],
+      "label": "Enter Your Meal Preference",
+      "type": "select",
+      "id": "Field_07hbia6",
+      "key": "mealAmount",
+      "description": "Choose Meal Options",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1a75xa4",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.3.0"
+  },
+  "schemaVersion": 4
+}
